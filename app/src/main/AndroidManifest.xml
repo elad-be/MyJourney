@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.user.myjourney">
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.1.0"
+        tools:replace="android:value" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,9 +24,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".add_post" android:exported="true">
-
-        </activity>
+        <activity
+            android:name=".add_post"
+            android:exported="true" />
+        <activity
+            android:name=".SetupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FeedActivity2"
+            android:exported="true" />
+        <activity android:name=".GridTry"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

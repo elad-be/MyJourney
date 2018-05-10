@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="username"
+            android:id="@+id/post_user_name"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="has been updeted"
+            android:id="@+id/text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:id="@+id/post_time"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:id="@+id/post_date"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="post description"
+            android:id="@+id/post_description"
+            android:layout_marginTop="10dp"/> 
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+     android:id="@+id/post_image"
+    />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myjourney.SetupActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/my_gradiant">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/setup_username"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/setup_full_name"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:text="save user"
+            android:id="@+id/setup_information_button"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
